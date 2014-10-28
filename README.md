@@ -14,6 +14,11 @@ To run memory tests (assumes valgrind is installed)
 make test_mem
 ```
 
+To build the test files without running theme
+```
+make
+```
+
 Description:
 ============
 A bounded queue is a fixed-sized FIFO data structure that
@@ -24,6 +29,7 @@ Summary of included files:
 1. bounded_queue.h: A header file defining the api of the bounded queue
 2. bounded_queue.c: A c-based implementaition of the api
 3. testboundedqueue.c: A bounded_queue test client
+4. Makefile: a makefile for quick compilation
 
 Abridged summary of API:
 ========================
