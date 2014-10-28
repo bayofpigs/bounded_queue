@@ -26,14 +26,13 @@ Summary of included files:
 3. testboundedqueue.c: A bounded_queue test client
 
 Abridged summary of API:
+========================
 1. BoundedQueue_new(int iSize): Bounded queue abstract data type 
 constructor. Returns a pointer to a new bounded queue data structure.
 Returns NULL on failure.
-
 2. BoundedQueue_enqueue(BoundedQueue_T, int iNew): Enqueue an integer
 iNew into the bounded queue BoundedQueue_T. Returns 0 on failure,
 1 on success.
-
 3. BoundedQueue_dequeue(BoundedQueue_T, int * value): Dequeues an 
 integer from the bounded queue and inserts its value int value. Returns
 0 on failure, 1 on success.
