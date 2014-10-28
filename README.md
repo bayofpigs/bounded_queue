@@ -1,6 +1,6 @@
 Bounded Queue
 =============
-A bounded queue abstract data type implementation in c for
+A bounded queue abstract data type implementation in C for
 KPCB
 
 Running Tests:
@@ -40,5 +40,5 @@ NULL on failure.
 iNew into the bounded queue BoundedQueue_T. Returns 0 on failure,
 1 on success.
 3. BoundedQueue_dequeue(BoundedQueue_T, int * value): Dequeues an 
-integer from the bounded queue and inserts its value int value. Returns
+integer from the bounded queue and inserts its value into value. Returns
 0 on failure, 1 on success.
